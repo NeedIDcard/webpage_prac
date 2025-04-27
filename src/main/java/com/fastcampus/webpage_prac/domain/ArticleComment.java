@@ -21,10 +21,10 @@ import java.util.Objects;
         @Index(columnList = "createAt"),
         @Index(columnList = "createBy"),
 })
-@EntityListeners(AuditingEntityListener.class)
+
 @Entity
 
-public class ArticleComment {
+public class ArticleComment extends AuditingFields {
 
     @Id
     @Nonnull
@@ -33,11 +33,6 @@ public class ArticleComment {
 
     @Setter @ManyToOne(optional = false) private Article article;
     @Setter @Column(nullable = false, length = 500) private String content;
-
-    @CreatedDate @Column(nullable = false) private LocalDateTime createAt;
-    @LastModifiedDate @Column(nullable = false)private LocalDateTime modifiedAt;
-    @CreatedBy @Column(nullable = false, length = 100) private String createBy;
-    @LastModifiedBy @Column(nullable = false, length = 100) private String modifiedBy;
 
     protected ArticleComment() {}
 

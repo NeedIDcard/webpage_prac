@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="JPA connect test" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-04-27T08:56:22.513Z" hostname="DESKTOP-M5TOF04" time="1.213">
+<testsuite name="JPA connect test" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-04-27T13:39:53.411Z" hostname="DESKTOP-M5TOF04" time="1.213">
   <properties/>
-  <testcase name="update test" classname="com.fastcampus.webpage_prac.repository.JPARepositoryTest" time="0.741"/>
-  <testcase name="delete test" classname="com.fastcampus.webpage_prac.repository.JPARepositoryTest" time="0.398"/>
-  <testcase name="select test" classname="com.fastcampus.webpage_prac.repository.JPARepositoryTest" time="0.037"/>
-  <testcase name="insert test" classname="com.fastcampus.webpage_prac.repository.JPARepositoryTest" time="0.031"/>
-  <system-out><![CDATA[17:56:18.791 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.fastcampus.webpage_prac.repository.JPARepositoryTest]: JPARepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-17:56:18.962 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.fastcampus.webpage_prac.WebpagePracApplication for test class com.fastcampus.webpage_prac.repository.JPARepositoryTest
+  <testcase name="update test" classname="com.fastcampus.webpage_prac.repository.JPARepositoryTest" time="0.676"/>
+  <testcase name="delete test" classname="com.fastcampus.webpage_prac.repository.JPARepositoryTest" time="0.443"/>
+  <testcase name="select test" classname="com.fastcampus.webpage_prac.repository.JPARepositoryTest" time="0.048"/>
+  <testcase name="insert test" classname="com.fastcampus.webpage_prac.repository.JPARepositoryTest" time="0.037"/>
+  <system-out><![CDATA[22:39:49.873 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.fastcampus.webpage_prac.repository.JPARepositoryTest]: JPARepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:39:50.017 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.fastcampus.webpage_prac.WebpagePracApplication for test class com.fastcampus.webpage_prac.repository.JPARepositoryTest
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -17,26 +17,26 @@
 
  :: Spring Boot ::                (v3.4.4)
 
-2025-04-27T17:56:19.475+09:00  INFO 30132 --- [    Test worker] c.f.w.repository.JPARepositoryTest       : Starting JPARepositoryTest using Java 21.0.6 with PID 30132 (started by Jo in C:\Users\Jo\IdeaProjects\Webpage_prac)
-2025-04-27T17:56:19.476+09:00 DEBUG 30132 --- [    Test worker] c.f.w.repository.JPARepositoryTest       : Running with Spring Boot v3.4.4, Spring v6.2.5
-2025-04-27T17:56:19.477+09:00  INFO 30132 --- [    Test worker] c.f.w.repository.JPARepositoryTest       : No active profile set, falling back to 1 default profile: "default"
-2025-04-27T17:56:19.845+09:00  INFO 30132 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-27T17:56:19.902+09:00  INFO 30132 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 2 JPA repository interfaces.
-2025-04-27T17:56:19.955+09:00  INFO 30132 --- [    Test worker] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
-2025-04-27T17:56:20.134+09:00  INFO 30132 --- [    Test worker] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:f7ac18e0-0dcd-490d-91b4-9e4272d20694;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
-2025-04-27T17:56:20.416+09:00  INFO 30132 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-27T17:56:20.485+09:00  INFO 30132 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
-2025-04-27T17:56:20.531+09:00  INFO 30132 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-04-27T17:56:20.879+09:00  INFO 30132 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-27T17:56:20.990+09:00  INFO 30132 --- [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory$EmbeddedDataSourceProxy@386e9fd8']
+2025-04-27T22:39:50.493+09:00  INFO 31660 --- [    Test worker] c.f.w.repository.JPARepositoryTest       : Starting JPARepositoryTest using Java 21.0.6 with PID 31660 (started by Jo in C:\Users\Jo\IdeaProjects\Webpage_prac)
+2025-04-27T22:39:50.494+09:00 DEBUG 31660 --- [    Test worker] c.f.w.repository.JPARepositoryTest       : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-27T22:39:50.495+09:00  INFO 31660 --- [    Test worker] c.f.w.repository.JPARepositoryTest       : No active profile set, falling back to 1 default profile: "default"
+2025-04-27T22:39:50.934+09:00  INFO 31660 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-27T22:39:51.001+09:00  INFO 31660 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
+2025-04-27T22:39:51.060+09:00  INFO 31660 --- [    Test worker] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2025-04-27T22:39:51.235+09:00  INFO 31660 --- [    Test worker] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:5656a1ca-286b-4917-bd69-636ed362f48f;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2025-04-27T22:39:51.506+09:00  INFO 31660 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-27T22:39:51.569+09:00  INFO 31660 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-27T22:39:51.609+09:00  INFO 31660 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-27T22:39:51.923+09:00  INFO 31660 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-27T22:39:52.024+09:00  INFO 31660 --- [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory$EmbeddedDataSourceProxy@763b0996']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
 	Autocommit mode: undefined/unknown
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-04-27T17:56:22.016+09:00  INFO 30132 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-27T22:39:52.907+09:00  INFO 31660 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
 Hibernate: 
     drop table if exists article cascade 
 Hibernate: 
@@ -90,8 +90,8 @@ Hibernate:
        add constraint FKghmocqkgqs5tkmucf5putw64t 
        foreign key (article_id) 
        references article
-2025-04-27T17:56:22.076+09:00  INFO 30132 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-27T17:56:22.492+09:00  INFO 30132 --- [    Test worker] c.f.w.repository.JPARepositoryTest       : Started JPARepositoryTest in 3.435 seconds (process running for 4.636)
+2025-04-27T22:39:52.968+09:00  INFO 31660 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-27T22:39:53.395+09:00  INFO 31660 --- [    Test worker] c.f.w.repository.JPARepositoryTest       : Started JPARepositoryTest in 3.299 seconds (process running for 4.431)
 Hibernate: 
     select
         a1_0.id,
@@ -111,8 +111,6 @@ Hibernate:
         article 
     set
         content=?,
-        create_at=?,
-        create_by=?,
         hashtag=?,
         modified_at=?,
         modified_by=?,
